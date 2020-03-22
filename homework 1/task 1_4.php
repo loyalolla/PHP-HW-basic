@@ -7,5 +7,5 @@
     $content = 'Some content';
  ?>
 
- <h1><&php echo $title?></h1> // ?= короткая запись
- <p><&php echo $content?></p>
+ <h1><?=$title?></h1> //короткая запись
+ <p><?=$content?></p>
